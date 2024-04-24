@@ -26,6 +26,6 @@ public class GraduationService {
             return account.isHasOutstandingBalance() ? "ineligible to graduate" : "eligible to graduate";
         }
 
-        return "Student is not exist";
+        return "Student does not exist";
     }
 }
