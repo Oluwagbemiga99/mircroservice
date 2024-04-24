@@ -32,6 +32,6 @@ public class ProfileService {
             return "Profile successfully updated";
         }
 
-        return "Student is not exist";
+        return "Student does not exist";
     }
 }
